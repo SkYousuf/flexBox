@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    /* display: inline-flex; 1*/
+    flex-direction: column;
+    /* flex-direction: row-reverse; 2*/
+    /* flex-direction: column; 3*/
+    /* flex-direction: column-reverse; 4*/
+/* flex-wrap: wrap; */
+height: 700px;
+/* flex-flow: column wrap ; short hand property */
+/*  flex wrap & direction work only when we give height*/
+row-gap: 20px;
+/* column-gap: 30px; */
+justify-content: center;
+/* justify-content: flex-start; */
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+
+}
+.flex-item{
+    color:white ;
+    font-size:1.5rem ;
+    padding:1rem ;
+    text-align: center;
+}
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color: rgb(85, 255, 0);
+}
+.item-3{
+    background-color: rgb(191, 0, 255);
+}
+.item-4{
+    background-color: rgb(255, 153, 0);
+}
+.item-5{
+    background-color: rgb(0, 255, 106);
+}
+.item-6{
+    background-color: rgb(255, 0, 242);
+}
+.item-7{
+    background-color: rgb(0, 255, 47);
+}
+.item-8{
+    background-color: rgb(129, 169, 188);
+}
+.item-9{
+    background-color: rgb(64, 0, 255);
+}
