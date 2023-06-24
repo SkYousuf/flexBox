@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.flex-item{
+    padding: 8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 80px;   
+}
+
+.item-1{
+    background-color: gray;
+}
+.item-2{
+    background-color: gray;
+}
+.item-3{
+    background-color: gray;
+}
+.item-4{
+    background-color: gray;
+}
+.item-5{
+    background-color: gray;
+}
+.item-6{
+    background-color: gray;
+}
+.item-7{
+    background-color: gray;
+}
+.item-8{
+    background-color: gray;
+}
+.item-9{
+    background-color: gray;
+}
